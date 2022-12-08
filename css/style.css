@@ -120,6 +120,10 @@ nav  .fa-bars{
     margin-bottom: 30px;
     color: var(--main-color);
 }
+@media (max-width:767px){
+    .landing .text h2 {
+        font-size: 50px;}
+}
 .landing .text p {
     color: rgba(255, 255, 255, 0.658);
     line-height: 2;
@@ -158,9 +162,13 @@ nav  .fa-bars{
 .main-heading{
     font-size: 80px;
     text-align: center;
-    color: #999999d9;
+    color: #bbb;
     font-weight: 600;
 
+}
+@media (max-width:767px){
+    .main-heading{
+        font-size: 60px;}
 }
 .main-heading + p {
     color: #111;
